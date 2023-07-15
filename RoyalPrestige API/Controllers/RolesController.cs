@@ -10,7 +10,7 @@ using static RoyalPrestige_API.CQRS.Queries.GetUsuarios;
 namespace RoyalPrestige_API.Controllers
 {
     [ApiController]
-    [Authorize]
+    [Authorize (Roles = ("ADMIN") )]
     [Route("api/[controller]")]
     public class RolesController : ControllerBase
     {

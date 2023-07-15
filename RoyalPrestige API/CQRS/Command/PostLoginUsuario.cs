@@ -58,6 +58,7 @@ namespace api.CQRS.Command
                 {
                     var Usuario = await Authenticate(request, cancellationToken);
                     var usuarioDto = _mapper.Map<UsuarioDTO>(Usuario);
+                    usuarioDto.RolNombre = await GetRolNombre(usuarioDto.RolId); // Obtener el nombre del rol
                     var token = GenerateToken(usuarioDto);
                     usuarioDto.Token = token;
                     return usuarioDto;
@@ -78,6 +79,7 @@ namespace api.CQRS.Command
                     new Claim(ClaimTypes.Email, usuarioDto.Email),
                     new Claim(ClaimTypes.GivenName, usuarioDto.Nombre),
                     new Claim(ClaimTypes.Surname, usuarioDto.Apellido),
+                    new Claim(ClaimTypes.Role, usuarioDto.RolNombre)
                 };
                 //Crear el Token
                 var token = new JwtSecurityToken(
@@ -102,6 +104,11 @@ namespace api.CQRS.Command
                     throw new Exception("Credenciales de inicio de sesión inválidas.");
                 }
                 return Usuario;
+            }
+            public async Task<string> GetRolNombre(long rolId)
+            {
+                var rol = await _context.Roles.FirstOrDefaultAsync(r => r.Id == rolId);
+                return rol?.Rol;
             }
         }
     }
