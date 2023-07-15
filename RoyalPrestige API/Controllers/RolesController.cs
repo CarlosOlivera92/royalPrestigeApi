@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RoyalPrestige_API.DTO;
 using static api.CQRS.Command.PostUsuario;
@@ -9,6 +10,7 @@ using static RoyalPrestige_API.CQRS.Queries.GetUsuarios;
 namespace RoyalPrestige_API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class RolesController : ControllerBase
     {

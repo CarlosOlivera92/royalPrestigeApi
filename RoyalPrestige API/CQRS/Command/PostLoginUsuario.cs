@@ -3,8 +3,14 @@ using AutoMapper;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using RoyalPrestige_API.Data;
 using RoyalPrestige_API.DTO;
+using RoyalPrestige_API.Models;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using System.Threading;
 
 namespace api.CQRS.Command
 {
@@ -37,35 +43,65 @@ namespace api.CQRS.Command
             private readonly ApplicationContext _context;
             private readonly IMapper _mapper;
             private readonly IValidator<PostLoginUsuarioCommand> _validator;
-            public PostLoginUsuarioCommandHandler(ApplicationContext context, IMapper mapper, IValidator<PostLoginUsuarioCommand> validator)
+            private readonly IConfiguration _config;
+            public PostLoginUsuarioCommandHandler(ApplicationContext context, IMapper mapper, IValidator<PostLoginUsuarioCommand> validator, IConfiguration config)
             {
                 _context = context;
                 _mapper = mapper;
                 _validator = validator;
+                _config = config;
             }
 
             public async Task<UsuarioDTO> Handle(PostLoginUsuarioCommand request, CancellationToken cancellationToken)
             {
                 try
                 {
-                    var UsuarioResultado = await _validator.ValidateAsync(request, cancellationToken);
-                    if (!UsuarioResultado.IsValid)
-                    {
-                        throw new ValidationException(UsuarioResultado.Errors);
-                    }
-                    var Usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.Username == request.Username 
-                    && x.Password == request.Password, cancellationToken);
-                    if (Usuario == null)
-                    {
-                        throw new Exception("Credenciales de inicio de sesión inválidas.");
-                    }
+                    var Usuario = await Authenticate(request, cancellationToken);
                     var usuarioDto = _mapper.Map<UsuarioDTO>(Usuario);
+                    var token = GenerateToken(usuarioDto);
+                    usuarioDto.Token = token;
                     return usuarioDto;
                 }
                 catch (Exception)
                 {   
                     throw;
                 }
+            }
+            public string GenerateToken(UsuarioDTO usuarioDto)
+            {
+                var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:Key"]));
+                var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+                //Crear los claims
+                var claims = new[]
+                {
+                    new Claim(ClaimTypes.NameIdentifier, usuarioDto.Username),
+                    new Claim(ClaimTypes.Email, usuarioDto.Email),
+                    new Claim(ClaimTypes.GivenName, usuarioDto.Nombre),
+                    new Claim(ClaimTypes.Surname, usuarioDto.Apellido),
+                };
+                //Crear el Token
+                var token = new JwtSecurityToken(
+                    _config["JWT:Issuer"],
+                    _config["JWT:Audience"],
+                    claims,
+                    expires: DateTime.Now.AddDays(1),
+                    signingCredentials: credentials);
+                return new JwtSecurityTokenHandler().WriteToken(token);
+            }
+            public async Task<Usuario> Authenticate(PostLoginUsuarioCommand request, CancellationToken cancellationToken)
+            {
+                var UsuarioResultado = await _validator.ValidateAsync(request, cancellationToken);
+                if (!UsuarioResultado.IsValid)
+                {
+                    throw new ValidationException(UsuarioResultado.Errors);
+                }
+                var Usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.Username == request.Username
+                && x.Password == request.Password, cancellationToken);
+                if (Usuario == null)
+                {
+                    throw new Exception("Credenciales de inicio de sesión inválidas.");
+                }
+                return Usuario;
             }
         }
     }

@@ -12,5 +12,8 @@
         public DateOnly FechaNacimiento { get; set; }
         public long Telefono { get; set; }
         public long RolId { get; set; }
+        public string RolNombre { get; set; } // Agrega el nombre del rol
+
+        public string Token { get; set; }
     }
 }

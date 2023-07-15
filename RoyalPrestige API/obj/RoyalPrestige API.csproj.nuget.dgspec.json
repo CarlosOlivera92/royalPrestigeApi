@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\RoyalPrestige API\\RoyalPrestige API.csproj": {}
+    "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\royalPrestigeApi\\RoyalPrestige API\\RoyalPrestige API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\RoyalPrestige API\\RoyalPrestige API.csproj": {
+    "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\royalPrestigeApi\\RoyalPrestige API\\RoyalPrestige API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\RoyalPrestige API\\RoyalPrestige API.csproj",
+        "projectUniqueName": "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\royalPrestigeApi\\RoyalPrestige API\\RoyalPrestige API.csproj",
         "projectName": "RoyalPrestige API",
-        "projectPath": "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\RoyalPrestige API\\RoyalPrestige API.csproj",
+        "projectPath": "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\royalPrestigeApi\\RoyalPrestige API\\RoyalPrestige API.csproj",
         "packagesPath": "C:\\Users\\thest\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\RoyalPrestige API\\obj\\",
+        "outputPath": "C:\\Users\\thest\\Desktop\\Carpetas\\net core\\RoyalPrestige\\royalPrestigeApi\\RoyalPrestige API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[12.1.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -79,6 +83,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.32.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"
@@ -86,6 +94,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.0, )"
             }
           },
           "imports": [

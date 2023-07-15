@@ -58,3 +58,71 @@ C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\RoyalPrestige API\obj\Deb
 C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.pdb
 C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.genruntimeconfig.cache
 C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\RoyalPrestige API\obj\Debug\net6.0\ref\RoyalPrestige API.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\appsettings.json
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\RoyalPrestige API.exe
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\RoyalPrestige API.deps.json
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\RoyalPrestige API.runtimeconfig.json
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\RoyalPrestige API.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\RoyalPrestige API.pdb
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\MediatR.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Npgsql.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.csproj.AssemblyReference.cache
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.AssemblyInfoInputs.cache
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.AssemblyInfo.cs
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.csproj.CoreCompileInputs.cache
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\staticwebassets\msbuild.RoyalPrestige API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\staticwebassets\msbuild.build.RoyalPrestige API.props
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RoyalPrestige API.props
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RoyalPrestige API.props
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\scopedcss\bundle\RoyalPrestige API.styles.css
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.csproj.CopyComplete
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\refint\RoyalPrestige API.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.pdb
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\RoyalPrestige API.genruntimeconfig.cache
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\obj\Debug\net6.0\ref\RoyalPrestige API.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\thest\Desktop\Carpetas\net core\RoyalPrestige\royalPrestigeApi\RoyalPrestige API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
