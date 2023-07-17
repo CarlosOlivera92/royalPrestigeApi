@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\RoyalPrestige API",
+    "\\RoyalPrestige API\\Controllers",
+    "\\RoyalPrestige API\\CQRS",
+    "\\RoyalPrestige API\\CQRS\\Command",
     "\\RoyalPrestige API\\DTO"
   ],
-  "SelectedNode": "\\RoyalPrestige API\\DTO\\RolDTO.cs",
+  "SelectedNode": "\\RoyalPrestige API\\DTO\\ReprogramacionesDTO.cs",
   "PreviewInSolutionExplorer": false
 }
